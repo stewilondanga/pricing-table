@@ -161,12 +161,13 @@ table th:hover::after {
   cursor: pointer;
 }
 
-/*table tfoot td {
+table tfoot td {
   padding: 10px 0 20px;
   border-radius: 0 0 5px 5px;
   box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
-table tfoot td td:hover::after {
+
+/*table tfoot td td:hover::after {
   content: "";
   position: absolute;
   background: #39a6a4;
