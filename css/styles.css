@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,79 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+body {
+  background: #658b7c;
+  font-family: "Archivo", sans-serif;
+}
+
+.frame {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+  color: #39a6a4;
+}
+
+table {
+  width: 800px;
+  height: 500px;
+  font-size: 18px;
+  border-spacing: 3px;
+  overflow: hidden;
+}
+table td,
+table th {
+  position: relative;
+  text-align: center;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  color: #fbf6e3;
+  cursor: pointer;
+}
+table th {
+  border-radius: 4px 4px 0 0;
+  font-size: 24px;
+  color: #fbf6e3;
+  padding: 10px;
+}
+table td {
+  width: 200px;
+  color: #fbf6e3;
+}
+table td:hover::after,
+table th:hover::after {
+  content: "";
+  position: absolute;
+  background: #39a6a4;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+  box-shadow: 0 10px 25px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+table tfoot td {
+  padding: 10px 0 20px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+table tfoot td td:hover::after {
+  content: "";
+  position: absolute;
+  background: #39a6a4;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
 }
 
 #contact h1 {
