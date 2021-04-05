@@ -135,13 +135,14 @@ table th {
   cursor: pointer;
 }
 
-/*table th {
+table th {
   border-radius: 4px 4px 0 0;
   font-size: 24px;
   color: #fbf6e3;
   padding: 10px;
 }
-table td {
+
+/*table td {
   width: 200px;
   color: #fbf6e3;
 }
