@@ -1,3 +1,8 @@
+body {
+  background: #658b7c;
+  font-family: "Archivo", sans-serif;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -107,10 +112,7 @@
   transition-delay: 0.4s;
 }
 
-body {
-  background: #658b7c;
-  font-family: "Archivo", sans-serif;
-}
+
 
 .frame {
   position: absolute;
