@@ -104,7 +104,7 @@ body {
   transition-delay: 0.4s;
 }
 
-/*.frame {
+.frame {
   position: absolute;
   width: 800px;
   height: 800px;
@@ -112,7 +112,7 @@ body {
   margin-left: -400px;
 }
 
-h1 {
+/*h1 {
   text-align: center;
   font-size: 38px;
   color: #39a6a4;
