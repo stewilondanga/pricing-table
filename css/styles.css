@@ -126,7 +126,7 @@ table {
   overflow: hidden;
 }
 
-/*table td,
+table td,
 table th {
   position: relative;
   text-align: center;
@@ -134,7 +134,8 @@ table th {
   color: #fbf6e3;
   cursor: pointer;
 }
-table th {
+
+/*table th {
   border-radius: 4px 4px 0 0;
   font-size: 24px;
   color: #fbf6e3;
