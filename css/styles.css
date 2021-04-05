@@ -189,7 +189,7 @@ table tfoot td td:hover::after {
   margin: 0 auto;
 }
 
-/*.cal {
+.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
@@ -199,7 +199,7 @@ table tfoot td td:hover::after {
   transition: all 0.2s linear;
 }
 
-.cal:hover {
+/*.cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
