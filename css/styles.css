@@ -118,14 +118,15 @@ h1 {
   color: #39a6a4;
 }
 
-/*table {
+table {
   width: 800px;
   height: 500px;
   font-size: 18px;
   border-spacing: 3px;
   overflow: hidden;
 }
-table td,
+
+/*table td,
 table th {
   position: relative;
   text-align: center;
