@@ -167,7 +167,7 @@ table tfoot td {
   box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
-/*table tfoot td td:hover::after {
+table tfoot td td:hover::after {
   content: "";
   position: absolute;
   background: #39a6a4;
@@ -178,7 +178,7 @@ table tfoot td {
   z-index: -1;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
