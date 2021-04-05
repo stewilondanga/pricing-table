@@ -142,11 +142,12 @@ table th {
   padding: 10px;
 }
 
-/*table td {
+table td {
   width: 200px;
   color: #fbf6e3;
 }
-table td:hover::after,
+
+/*table td:hover::after,
 table th:hover::after {
   content: "";
   position: absolute;
